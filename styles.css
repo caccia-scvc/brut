@@ -1,0 +1,43 @@
+body {
+    font-family: "Courier New", monospace;
+    text-align: center;
+    margin: 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+.container {
+    padding: 20px;
+    border: 5px solid black;
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.data {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.refresh {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.refresh:hover {
+    background: black;
+    color: white;
+}
